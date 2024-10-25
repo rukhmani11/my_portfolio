@@ -145,8 +145,9 @@ h6 {
 .header {
   color: var(--default-color);
   position: fixed;
-  top: 0;
+   top: 0;
   left: 0;
+  margin-top: 10%;
   bottom: 0;
   padding: 0 15px;
   transition: all ease-in-out 0.3s;
@@ -1070,82 +1071,6 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-item+.info-item {
-  margin-top: 40px;
-}
-
-.contact .info-item i {
-  color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  font-size: 20px;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 15px;
-}
-
-.contact .info-item h3 {
-  padding: 0;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.contact .php-email-form {
-  height: 100%;
-}
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
@@ -1456,4 +1381,193 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+/* Section Title Styling */
+.skills .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills .section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.skills .section-title p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Wrapper for left and right columns */
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Styling for left and right columns */
+.skills-left,
+.skills-right {
+  flex: 1;
+}
+
+/* Progress bar styling */
+.skills .progress {
+  margin-bottom: 20px;
+}
+
+.skills .skill {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skills .progress-bar-wrap {
+  background-color: #f0f0f0;
+  border-radius: 50px;
+}
+
+.skills .progress-bar {
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 50px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .skills-wrapper {
+    flex-direction: column;
+  }
+}
+
+
+
+.section-title {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.resume-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.resume-item {
+  margin-bottom: 30px;
+}
+
+.resume-item h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.resume-item h5 {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+.resume-item ul li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+.resume-item p {
+  margin-bottom: 15px;
+}
+
+em {
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .col-lg-6 {
+    flex: 100%;
+  }
+}
+/* Center the section title */
+.section-title {
+  text-align: center;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.contact .section-subtitle {
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.contact-info .info-item {
+  margin-bottom: 20px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.php-email-form .form-control {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.php-email-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.php-email-form button[type="submit"]:hover {
+  background-color: #0056b3;
 }
