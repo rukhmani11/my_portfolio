@@ -98,7 +98,9 @@ function App() {
                   </a>
                   <a href="#">
                     <GitHubIcon />
-                  </a>
+                  </a>  <Button variant="contained" color="primary" type="submit" size="large">
+                    Resume
+                  </Button>
                 </div>
               </div>
             </div>
