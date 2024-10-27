@@ -84,7 +84,7 @@ function App() {
       </header>
       <main className="main">
         <section id="hero" className="hero section light-background">
-          <img src="/hero-bg.jpg" alt="" />
+          <img src="/myphoto.jpeg" alt="" />
           <div className="container" data-aos="zoom-out">
             <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -127,13 +127,13 @@ function App() {
                 className="image-container"
                 style={{ flex: "1", textAlign: "center" }}
               >
-                <img src="/profile-img.jpg" className="img-fluid" alt="" />
+                <img src="/profile.jpeg" className="img-fluid" alt="" />
               </div>
               <div
                 className="text-container"
                 style={{ flex: "2", paddingLeft: "20px" }}
               >
-                <h2>UI/UX Designer &amp; Web Developer.</h2>
+                <h2>Full-Stack-Developer</h2>
                 <p className="fst-italic py-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -314,7 +314,7 @@ function App() {
               <FaMapMarkerAlt size={30} className="text-primary" style={{ color: '#007bff', marginRight: '15px' }} />
               <div>
                 <Typography variant="h6">Address</Typography>
-                <Typography variant="body2">A108 Adam Street, New York, NY 535022</Typography>
+                <Typography variant="body2">Charkop Kandiwali(West) Mumbai 400067 maharashtra INDIA</Typography>
               </div>
             </Box>
 
@@ -322,7 +322,7 @@ function App() {
               <FaPhoneAlt size={30} className="text-primary" style={{ color: '#007bff', marginRight: '15px' }} />
               <div>
                 <Typography variant="h6">Call Us</Typography>
-                <Typography variant="body2">+1 5589 55488 55</Typography>
+                <Typography variant="body2">+91 8369638314</Typography>
               </div>
             </Box>
 
@@ -330,7 +330,7 @@ function App() {
               <FaEnvelope size={30} className="text-primary" style={{ color: '#007bff', marginRight: '15px' }} />
               <div>
                 <Typography variant="h6">Email Us</Typography>
-                <Typography variant="body2">info@example.com</Typography>
+                <Typography variant="body2">prajapatirukhmani922@gmail.com</Typography>
               </div>
             </Box>
           </Grid>
@@ -377,7 +377,7 @@ function App() {
       <Container>
         <Box textAlign="center" mb={3}>
           <Typography variant="h3" component="h3" style={{ fontWeight: 'bold' }}>
-            Brandon Johnson
+            Rukhmni Prajpati
           </Typography>
           <Typography variant="body1" style={{ fontStyle: 'italic' }}>
             Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
