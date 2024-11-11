@@ -24,12 +24,14 @@ function App() {
     { skill: 'HTML', value: 100 },
     { skill: 'CSS', value: 90 },
     { skill: 'JavaScript', value: 75 },
+    { skill: 'TypeScript', value: 70 },
   ];
   
   const skillsRight = [
-    { skill: 'PHP', value: 80 },
-    { skill: 'WordPress/CMS', value: 90 },
-    { skill: 'Photoshop', value: 55 },
+    { skill: 'React', value: 70 },
+    { skill: '.Net Core', value: 60 },
+    { skill: 'Angular', value: 55 },
+    { skill: 'SQL', value: 55 },
   ];
   
   
@@ -110,12 +112,10 @@ function App() {
         <section id="about" className="about section">
           <div className="container section-title" data-aos="fade-up">
             <h2>About</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
+            
+          <h3>  I'm Rukhmani Prajapati, a dedicated Full Stack Developer with a strong focus on creating efficient, scalable applications. With years of experience in front-end and back-end development,
+            I love building responsive and dynamic user interfaces.
+            </h3>
           </div>
 
           <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -135,27 +135,23 @@ function App() {
               >
                 <h2>Full-Stack-Developer</h2>
                 <p className="fst-italic py-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Full Stack Developer | Passionate About Building User-Friendly, Scalable Web Applications.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Birthday:</strong> <span>1 May 1995</span>
+                        <strong>Birthday:</strong> <span>2 Oct 2002</span>
+                      </li>
+                      
+                      <li>
+                        <i className="bi bi-chevron-right"></i>{" "}
+                        <strong>Phone:</strong> <span>+91 8369638314</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Website:</strong> <span>www.example.com</span>
-                      </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Phone:</strong> <span>+123 456 7890</span>
-                      </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>City:</strong> <span>New York, USA</span>
+                        <strong>City:</strong> <span>Maharashtra</span>
                       </li>
                     </ul>
                   </div>
@@ -163,30 +159,21 @@ function App() {
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Age:</strong> <span>30</span>
+                        <strong>Age:</strong> <span>22</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Degree:</strong> <span>Master</span>
+                        <strong>Degree:</strong> <span>Bachelor of Science in Information Technology</span>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Email:</strong> <span>email@example.com</span>
+                        <strong>Email:</strong> <span>prajapatirukhmani922@gmail.com</span>
                       </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>{" "}
-                        <strong>Freelance:</strong> <span>Available</span>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
-                <p className="py-3">
-                  Officiis eligendi itaque labore et dolorum mollitia officiis
-                  optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                  accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                  consectetur qui quia repellendus itaque neque.
-                </p>
+               
               </div>
             </div>
           </div>
@@ -195,10 +182,9 @@ function App() {
         <section id="skills" className="skills section">
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
+        <h2>Areas of Expertise</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+        Highlights my areas of specialization with a focus on how each skill contributes to building efficient, user-friendly, and scalable applications.
         </p>
       </div>
 
@@ -226,7 +212,7 @@ function App() {
       <div className="container section-title">
         <h2>Resume</h2>
         <p>
-          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+        Emphasizes your core skills and years of experience.
         </p>
       </div>
 
