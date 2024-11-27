@@ -220,21 +220,33 @@ function App() {
         <div className="row">
           {/* Left Column - Professional Experience */}
           <div className="col-lg-6">
-            <h3 className="resume-title">Professional Experience</h3>
+            <h3 className="resume-title">PROFESSIONAL EXPERIENCE</h3>
 
             <div className="resume-item">
-              <h4>Senior Graphic Design Specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY</em></p>
+              <h4> Sentient Systems Private Limited </h4>
+              <h5>2024 - Present</h5>
+           <b><p><em> ANJ next wave(  Present Working)</em></p></b>   
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials.</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design.</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000.</li>
+                <li>Developed a dynamic and interactive data dashboard that filters records based on a date range (FromDate and ToDate).</li>
+                <li>Allowed users to download data from the application into Excel files and Enabled users to upload Excel files and save the data to the database and image upload.</li>
+                <li>Added, deleted, and edited and, records and Select dropdown values in the web application using React.</li>
+                <li>Technologies: ReactJs, MUI, JavaScript, HTML, CSS, .Net core, SQL.</li>
               </ul>
+              <b><p><em> Vov ( Value of Visit )</em></p></b>
+              <ul>
+                <li>Added meeting schedule where users can schedule their meetings based on which user is going to meet which client employee and user can add more clients on pages.</li>
+                <li>The technology used in this project is React js, .Net core, SQL, and Material ui.</li>
+              </ul>
+              <b> <p><em> Perfect Society</em></p></b>
+              <ul>
+                <li>Added parking type, building unit.</li>
+                <li>Features: Society function – Society Setup, Member Management, etc.</li>
+                <li>The technology used in this project is React js, .Net core, SQL, and Material UI.
+                </li>
+               </ul>
             </div>
 
-            <div className="resume-item">
+            {/* <div className="resume-item">
               <h4>Graphic Design Specialist</h4>
               <h5>2017 - 2018</h5>
               <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -244,35 +256,38 @@ function App() {
                 <li>Recommended and consulted with clients on the most appropriate graphic design.</li>
                 <li>Created 4+ design presentations and proposals a month for clients and account managers.</li>
               </ul>
-            </div>
+            </div> 
           </div>
 
           {/* Right Column - Summary and Education */}
-          <div className="col-lg-6">
-            <h3 className="resume-title">Summary</h3>
+           <div className="col-lg-6">
+            <h3 className="resume-title">PERSONAL PROJECTS</h3>
             <div className="resume-item">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>Food recipe website</h4>
+              <h5>(9 Dec 2021- 20 mar 2022)</h5>
+              
               <ul>
-                <li>Portland par 127, Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Food recipe website, we provide a search platform where a user can find videos according to their choices and we provide a reed recipe where users can read recipes there is one feature on this website where user can upload their own recipe images that they cooks with the help of this recipe website.
+                </li>
+                <li>I used Web Technologies: PHP, HTML, CSS, JS, for Databases: MYSQL. 
+                </li>
               </ul>
+            </div> 
             </div>
 
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</p>
+              <h4>Prahladrai Dalmia Lions College</h4>
+              <h5>2019 - 2022</h5>
+              <p><em>Bachelor of Science in Information Technology (B.Sc. I.T.)</em></p>
+              {/* <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</p> */}
             </div>
 
             <div className="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila.</p>
+              <h4> Shri T P Bhatia College of science</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>Higher Secondary Certificate (HSC)  12th Standard </em></p>
+              {/* <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila.</p> */}
             </div>
           </div>
         </div>
